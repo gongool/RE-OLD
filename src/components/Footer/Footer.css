@@ -8,8 +8,18 @@
 }
 
 .f-menu {
-margin-top: 1.5rem;
-gap: 1.5rem;
-font-weight: 500;
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+    font-weight: 500;
 }
 
+@media (max-width: 768px) {
+    .f-container {
+        justify-content: center;
+    }
+
+    .f-container>div {
+        
+    }
+    
+}

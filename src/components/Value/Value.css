@@ -46,6 +46,7 @@
     justify-content: space-between;
     cursor: pointer;
 }
+
 .icon {
     padding: 10px;
     background: #eeeeff;
@@ -58,4 +59,28 @@
 
 .accordionButton .primary-text {
     font-size: 0.9rem;
+}
+
+
+@media (max-width: 1024px) {
+    .v-container {
+        flex-direction: column;
+    }
+
+    .v-right .primary-text {
+        font-size: 1.4rem;
+        margin-top: -0.7rem;
+    }
+
+
+    .v-left .image-container {
+        width: 100%;
+        height: 22rem;
+    }
+
+    @media (max-width:768px) {
+        .accordionButton .primary-text {
+            font-size: 0.8rem;
+        }
+    }
 }
